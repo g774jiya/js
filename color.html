@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Home Page</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    
+    <p id="content" onmouseover="changeBackgroundColor()" onmouseout="resetBackgroundColor()">
+        Hover over this text to change the background color.
+    </p>
+
+    <input type="text" id="inputField" placeholder="Click here to focus" onfocus="focusBackgroundColor()" onblur="resetBackgroundColor()">
+    
+    <script src="color.js"></script>
+</body>
+</html>
